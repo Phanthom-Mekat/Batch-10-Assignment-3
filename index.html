@@ -21,6 +21,7 @@
               colors: {
                 clifford: '#da373d',
                 'primary-color': '#ABEF5F',
+                'footer':'#1C1C1C',
               },
             },
           },
@@ -301,8 +302,33 @@
 
 
       </section>
+
     </main>
-    <footer>
+    <footer class="bg-footer ">
+      <div class="text-center flex flex-col w-11/12 mx-auto items-center gap-5">
+        <div class="flex mt-24">
+          <div class="bg-primary-color px-3 text-base py-1 rounded-3xl mr-2 cursor-pointer"> 
+            <i class="fa-solid fa-arrow-right -rotate-45"></i>  
+          </div>
+          <a class="text-3xl font-extrabold text-white"> Rinterio</a>
+        </div>
+        <p class="text-[#737373] font-bold md:mb-8 mb-4">The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.</p>
+        <div class="navbar-center flex flex-col md:flex-row mb-5">
+          <ul class="menu flex flex-col md:flex-row gap-4   px-1 ">
+            <li class="text-[#E9E9E9] font-extrabold"><a>Home</a></li>
+            <li class="text-[#E9E9E9]">
+                <summary>Services</summary>
+            </li>
+            <li class="text-[#E9E9E9]"><a>Portfolio</a></li>
+            <li class="text-[#E9E9E9]"><a>Blog</a></li>
+            <li class="text-[#E9E9E9]"><a>Contact Us</a></li>
+          </ul>
+        </div>
+        <a class="btn bg-primary-color rounded-3xl w-full  mx-auto mb-20 md:w-1/5 font-extrabold md:flex">Book Consult<div class="bg-black text-white px-2 text-base py-1 rounded-3xl mr-2 cursor-pointer"> 
+          <i class="fa-solid fa-arrow-right -rotate-45"></i>  
+        </div></a>
+      </div>
+
 
     </footer>
 </body>
